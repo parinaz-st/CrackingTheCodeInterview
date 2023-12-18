@@ -13,4 +13,14 @@ public class StringsCommon {
         String sortedString = new String(chars);
         return sortedString;
     }
+    // this is not working for non-alphabetical chars
+    // a->0, b->1, ....
+    public static int getCharacterNumber(char c){
+        int a = Character.getNumericValue('a');
+        int Z = Character.getNumericValue('Z');
+        int val = Character.getNumericValue(c);
+        if(val < a || val > Z)
+            return -1;
+        return val - a;
+    }
 }
