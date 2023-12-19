@@ -11,7 +11,7 @@ public class generateCompressedStringTest {
         stringCompression.generateCompressedString("aabcccccaaa");
     }
     @Test
-    public void given_book_Example_generateCompressedStringBuilder(){
+    public void given_book_Example_generateCompressedString_Builder(){
         stringCompression.generateCompressedStringBuilder("aabcccccaaa");
     }
 }
