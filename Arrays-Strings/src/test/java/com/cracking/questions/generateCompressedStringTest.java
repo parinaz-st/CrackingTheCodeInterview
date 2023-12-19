@@ -10,6 +10,10 @@ public class generateCompressedStringTest {
     public void given_book_Example_generateCompressedString(){
         stringCompression.generateCompressedString("aabcccccaaa");
     }
+    @Test
+    public void given_book_Example_generateCompressedStringBuilder(){
+        stringCompression.generateCompressedStringBuilder("aabcccccaaa");
+    }
 }
 
 
